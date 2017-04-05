@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# grep-multi
+
+grep $1 src/*/*.tex src/*/*/*.tex

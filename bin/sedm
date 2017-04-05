@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# sed-multi
+
+sed -b -i src/*/*.tex -e $1
+sed -b -i src/*/*/*.tex -e $1

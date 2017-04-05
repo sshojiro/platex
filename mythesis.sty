@@ -1,0 +1,36 @@
+\ProvidesPackage{mythesis}
+\usepackage{bm}
+
+%--- math ---%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\argmax}{\mathop{\rm arg~max}\limits}
+\newcommand{\argmin}{\mathop{\rm arg~min}\limits}
+
+%--- sectioning for \subsubsubsection ---%
+\usepackage{titlesec}
+\titleformat{\paragraph}{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+%--- figure utilities ---%
+\usepackage[dvipdfmx]{graphicx}% dvipdfmx % dvipdf
+\usepackage[dvipdfmx]{color}
+\usepackage{subcaption}
+\graphicspath{{res/}}% add the directory res/ to graphics path.
+
+%--- style ---%
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{margin=2cm}
+\setstretch{1}
+\setcounter{secnumdepth}{4}
+\usepackage{afterpage}
+\usepackage{cite}
+\usepackage{here}
+\renewcommand{\figurename}{Fig.}
+
+%--- helpers ---%
+\usepackage{xparse}
+%--- helper macros ---%
+\NewDocumentCommand \todo{m} {\colorbox{yellow}{TODO: #1} }
+\NewDocumentCommand \diff{m} {\textcolor{blue}{#1}}

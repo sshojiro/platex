@@ -5,6 +5,7 @@ pLaTex template in English.
 
 ## Installation
 
+0. [TeXLive for windows](https://texwiki.texjp.org/?TeX%20Live%2FWindows)
 1. [TeXworks](https://www.tug.org/texworks/#Getting_TeXworks) for Windows (including latexmk)
 2. [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer-ja.html)
 3. Clone this project as follows:
